@@ -1,6 +1,6 @@
 <h1 align="center">
 
-  ![screenshot](https://raw.githubusercontent.com/Leandro-Amorim/visiondeck/main/images/video.webm)
+  ![screenshot](https://raw.githubusercontent.com/Leandro-Amorim/visiondeck/main/images/video.gif)
 
   VisionDeck
   <br>
