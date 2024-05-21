@@ -1,10 +1,11 @@
-<h1 align="center">
+<span align="center">
 
-  ![screenshot](https://raw.githubusercontent.com/Leandro-Amorim/visiondeck/main/images/video.gif)
+![screenshot](https://raw.githubusercontent.com/Leandro-Amorim/visiondeck/main/images/video.gif)
 
-  VisionDeck
-  <br>
-</h1>
+</span>
+
+> Flickering is caused by the browser's screenshot function and does not affect the software's operation.
+<h1 align="center">VisionDeck</h1>
 
 <h4 align="center">An autonomous Poker Bot (more specifically for the Deuces Wild variant) powered by Computer Vision and AI.</h4>
 
