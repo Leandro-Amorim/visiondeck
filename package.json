@@ -1,0 +1,33 @@
+{
+	"name": "visiondeck",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node src/index.ts",
+		"build": "rimraf ./build && tsc",
+		"start": "npm run build && node build/index.js",
+		"process": "ts-node src/process-cards.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"nodemon": "^3.1.0",
+		"rimraf": "^5.0.7",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"@ai-sdk/anthropic": "^0.0.14",
+		"@ai-sdk/openai": "^0.0.13",
+		"ai": "^3.1.12",
+		"dotenv": "^16.4.5",
+		"jimp": "^0.22.12",
+		"opencv4nodejs-prebuilt-install": "^4.1.202",
+		"playwright": "^1.44.0",
+		"pokersolver": "^2.1.4",
+		"zod": "^3.23.8"
+	}
+}

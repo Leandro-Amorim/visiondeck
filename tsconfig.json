@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"target": "es2021",
+		"lib": [
+			"dom",
+			"es2021"
+		],
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "Node16",
+		"module": "Node16",
+		"rootDir": "./src",
+		"resolveJsonModule": true,
+		"allowJs": false,
+		"outDir": "./build",
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"ts-node": {  "files": true }
+}
